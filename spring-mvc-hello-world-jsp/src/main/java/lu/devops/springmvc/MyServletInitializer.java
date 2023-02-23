@@ -1,7 +1,8 @@
-package com.mkyong;
+package lu.devops.springmvc;
 
-import com.mkyong.config.SpringWebConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import lu.devops.springmvc.config.SpringWebConfig;
 
 public class MyServletInitializer
         extends AbstractAnnotationConfigDispatcherServletInitializer {

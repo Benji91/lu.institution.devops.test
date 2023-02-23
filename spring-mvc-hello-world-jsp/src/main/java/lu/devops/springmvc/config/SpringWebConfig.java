@@ -1,4 +1,4 @@
-package com.mkyong.config;
+package lu.devops.springmvc.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
