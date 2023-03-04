@@ -20,12 +20,12 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
-tasks.named('test') {
-	useJUnitPlatform()
-}
-
 plugins{
 
   id 'org.springframework.boot' version '2.0.3.RELEASE'
 
  }
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
