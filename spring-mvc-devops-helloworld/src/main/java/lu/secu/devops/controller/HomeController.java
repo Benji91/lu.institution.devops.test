@@ -11,8 +11,9 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("/home")
-	public String home() {
-		return "home";
+	@RequestMapping("/feature1")
+	public String feature1() {
+		System.out.println("Accessing feature 1 page");
+		return "feature1";
 	}
 }
