@@ -11,8 +11,8 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("/home")
-	public String home() {
-		return "home";
+	@RequestMapping("/feature1")
+	public String feature1() {
+		return "feature1";
 	}
 }
