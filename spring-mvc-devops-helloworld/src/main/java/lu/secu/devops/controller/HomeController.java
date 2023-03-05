@@ -13,6 +13,7 @@ public class HomeController {
 	
 	@RequestMapping("/feature1")
 	public String feature1() {
+		System.out.println("Accessing feature 1 page");
 		return "feature1";
 	}
 }
