@@ -16,4 +16,10 @@ public class HomeController {
 		System.out.println("Accessing feature 1 page");
 		return "feature1";
 	}
+	
+	@RequestMapping("/feature3")
+	public String feature3() {
+		return "feature3";
+	}
 }
+
