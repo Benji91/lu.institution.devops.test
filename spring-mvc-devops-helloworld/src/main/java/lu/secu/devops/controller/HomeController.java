@@ -20,7 +20,7 @@ public class HomeController {
 	
 	@RequestMapping("/feature2")
 	public String feature2() {
-		System.out.println("Accessing Feature 2 page!");
+		System.out.println("Accessing Feature2 page.....");
 		return "feature2";
 	}
 }
