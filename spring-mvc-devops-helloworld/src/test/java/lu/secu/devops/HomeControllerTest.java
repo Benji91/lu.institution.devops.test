@@ -19,7 +19,7 @@ public class HomeControllerTest {
 			product *= base;
 		}
 		System.out.println("The product of this formula is : "+product);
-		System.out.println("Starting Test loadingHomeController");
+		System.out.println("Test pull");
 		
 		assertTrue(true);
 	}
